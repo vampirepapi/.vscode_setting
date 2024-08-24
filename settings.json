@@ -1,0 +1,98 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Ayu Dark",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 19,
+    "editor.tabSize": 2,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "workbench.productIconTheme": "fluent-icons",
+    "explorer.openEditors.visible": 10,
+    "explorer.autoReveal": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.size": "proportional",
+    "workbench.tree.indent": 12,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.tabCloseButton": "off",
+    "breadcrumbs.enabled": false,
+    "editor.overviewRulerBorder": false,
+    "editor.padding.bottom": 14,
+    "editor.padding.top": 14,
+    "editor.scrollbar.horizontal": "auto",
+    "editor.codeLens": false,
+    "editor.glyphMargin": false,
+    "editor.foldingHighlight": false,
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.matchBrackets": "near",
+    "editor.guides.highlightActiveBracketPair": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "off",
+    "editor.smoothScrolling": true,
+    "editor.lineNumbers": "on",
+    "explorer.compactFolders": false,
+    "window.autoDetectHighContrast": false,
+    // Set the window title to the root name
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    "zenMode.fullScreen": false,
+    "editor.lineHeight": 28,
+    "workbench.activityBar.location": "top",
+    "workbench.editor.tabActionCloseVisibility": true,
+    "apc.electron": {
+      "frame": false,
+      "titleBarStyle": "hidden",
+    },
+    // Move the editor actions to the title bar - cool setting to move all the editor actions to the title bar
+	"workbench.editor.editorActionsLocation": "titleBar",
+    "window.titleBarStyle": "custom",
+    "apc.statusBar": {
+      "position": "editor-bottom"
+    },
+    "apc.activityBar": {
+      "position": "bottom",
+      "size": 36
+    },
+    "apc.stylesheet": {
+      // Hide the title elements in the editor group container - hide/show files title bar
+      // ".editor-group-container .title *": "display: none;",
+      // Make the title elements in the editor group container non-clickable
+      // ".editor-group-container .title": "pointer-events: none;",
+      ".decorationsOverviewRuler": "display: none;",
+      ".editor-group-container.empty": "-webkit-app-region: drag;",
+      // Remove the box shadow from the scroll decoration in the Monaco editor
+      ".monaco-editor .scroll-decoration": "box-shadow: none;",
+      // Set the color for the cursor in the Monaco editor 
+      ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+  },
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "update.mode": "manual",
+    "apc.header": {
+      "height": 36
+    },
+    "symbols.hidesExplorerArrows": false,
+    "window.commandCenter": false,
+    "editor.minimap.showSlider": "mouseover",
+    "editor.minimap.renderCharacters": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.layoutControl.enabled": false,
+    // Set the editor backgrounds
+    "background.editorBackgrounds": [
+        "c:/Users/shubhsou/Downloads/353649.jpg"
+    ],
+    // Set the background blur
+    "background.backgroundBlur": [
+        "0",
+        "5px",
+        "0",
+        "0"
+    ],
+
+    "editor.stickyScroll.enabled": false,
+    // Enable line nos in ZEN mode
+    "window.customTitleBarVisibility": "auto",
+    "git.enableSmartCommit": true,
+  }
