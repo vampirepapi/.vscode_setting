@@ -39,7 +39,7 @@
     "zenMode.fullScreen": false,
     "editor.lineHeight": 28,
     "workbench.activityBar.location": "top",
-    "workbench.editor.tabActionCloseVisibility": true,
+    "workbench.editor.tabActionCloseVisibility": false,
     "apc.electron": {
       "frame": false,
       "titleBarStyle": "hidden",
