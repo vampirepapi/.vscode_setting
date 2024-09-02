@@ -1,11 +1,11 @@
 {
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Ayu Dark",
-    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.fontSize": 19,
-    "editor.tabSize": 2,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.tabSize": 4,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontSize": 14,
     "workbench.productIconTheme": "fluent-icons",
     "explorer.openEditors.visible": 10,
@@ -14,7 +14,7 @@
     "editor.minimap.size": "proportional",
     "workbench.tree.indent": 12,
     "workbench.tree.renderIndentGuides": "none",
-    "workbench.editor.tabCloseButton": "off",
+    "workbench.editor.tabCloseButton": "onhover",
     "breadcrumbs.enabled": false,
     "editor.overviewRulerBorder": false,
     "editor.padding.bottom": 14,
@@ -35,11 +35,12 @@
     "explorer.compactFolders": false,
     "window.autoDetectHighContrast": false,
     // Set the window title to the root name
-    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    // "window.title": "$💤 {dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+    "window.title": "$💤 {dirty}${activeEditorShort}${separator}",
     "zenMode.fullScreen": false,
     "editor.lineHeight": 28,
     "workbench.activityBar.location": "top",
-    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.editor.tabActionCloseVisibility": true,
     "apc.electron": {
       "frame": false,
       "titleBarStyle": "hidden",
@@ -69,7 +70,7 @@
     "editor.hideCursorInOverviewRuler": true,
     "editor.cursorBlinking": "phase",
     "editor.cursorSmoothCaretAnimation": "on",
-    "update.mode": "manual",
+    "update.mode": "none",
     "apc.header": {
       "height": 36
     },
@@ -95,4 +96,9 @@
     // Enable line nos in ZEN mode
     "window.customTitleBarVisibility": "auto",
     "git.enableSmartCommit": true,
+    "codeium.enableConfig": {
+      "*": true,
+      "markdown": true
+    },
+    "git.confirmSync": false,
   }
